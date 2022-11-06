@@ -6,9 +6,11 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 .global__div {
   display: flex;
   width: 100%;
@@ -236,6 +238,7 @@ nav ul li a:hover {
   height: 100%;
   background: #1e1e1ea6;
 }
+
 .main_right img {
   width: 100%;
   height: 100%;
@@ -363,21 +366,26 @@ nav ul li a:hover {
     border-radius: 0;
   }
 }
+
 @keyframes animate {
   0% {
     transform: scale(0);
   }
+
   100% {
     transform: scale(3);
     opacity: 0;
   }
 }
+
 .pulse span:nth-child(2) {
   animation-delay: 1s;
 }
+
 .pulse span:nth-child(3) {
   animation-delay: 2s;
 }
+
 .pulse span:nth-child(4) {
   animation-delay: 3s;
 }
@@ -465,6 +473,7 @@ nav ul li a:hover {
     display: flex;
     transition: linear 0.3s;
   }
+
   .m_open {
     display: flex;
     transition: linear 0.3s;
@@ -508,6 +517,7 @@ nav ul li a */
   .main_right img {
     border-radius: 0;
   }
+
   .line__add {
     width: 100%;
   }
@@ -517,6 +527,7 @@ nav ul li a */
   .main_title {
     font-size: 38px;
   }
+
   .line__add {
     padding: 22px;
   }
@@ -526,6 +537,7 @@ nav ul li a */
   .main_title {
     font-size: 28px;
   }
+
   .line__add {
     padding: 22px;
   }
@@ -535,6 +547,7 @@ nav ul li a */
     margin-top: 100px;
   }
 }
+
 /* /main */
 
 /* mission_school */
@@ -748,6 +761,7 @@ nav ul li a */
     margin-bottom: 15px;
     width: 80%;
   }
+
   .bb__border {
     border-bottom: 1px solid #2461ff;
     margin-bottom: 15px;
@@ -758,6 +772,7 @@ nav ul li a */
     line-height: normal;
   }
 }
+
 @media screen and (max-width: 500px) {
   .blok_media_media {
     width: 100%;
@@ -874,6 +889,7 @@ nav ul li a */
   text-decoration: none;
   color: #000000;
 }
+
 @media screen and (max-width: 800px) {
   .bolum_name {
     font-size: 25px;
@@ -900,6 +916,7 @@ nav ul li a */
     font-size: 16px;
   }
 }
+
 /* /bolumdor */
 
 /* news */
@@ -1044,7 +1061,7 @@ nav ul li a */
   background: rgba(0, 0, 0, 0.616);
 }
 
-.news_card:hover > img {
+.news_card:hover>img {
   transition: linear 0.3s;
   transform: scale(1.1);
 }
@@ -1161,6 +1178,7 @@ nav ul li a */
     width: 100%;
   }
 }
+
 /* /news */
 
 /* word_div */
@@ -1302,6 +1320,7 @@ nav ul li a */
     font-size: 20px;
     line-height: normal;
   }
+
   .word_div_l_subtext {
     margin: 6px 0;
   }
@@ -1322,6 +1341,7 @@ nav ul li a */
     padding: 80px 0px 50px 0px;
   }
 }
+
 /* /word_div */
 
 /* global__div */
@@ -1387,7 +1407,7 @@ nav ul li a */
   transition: linear.3s;
 }
 
-.gallery_img:hover > .btn_open {
+.gallery_img:hover>.btn_open {
   visibility: visible;
   opacity: 1;
   transition: linear.3s;
@@ -1467,26 +1487,31 @@ nav ul li a */
   transition: linear 0.3s;
   opacity: 1;
 }
+
 .gallery_2 {
   visibility: visible;
   opacity: 1;
   transition: linear 0.3s;
 }
+
 .gallery_3 {
   visibility: visible;
   transition: linear 0.3s;
   opacity: 1;
 }
+
 .gallery_4 {
   visibility: visible;
   transition: linear 0.3s;
   opacity: 1;
 }
+
 .gallery_5 {
   visibility: visible;
   opacity: 1;
   transition: linear 0.3s;
 }
+
 .gallery_6 {
   visibility: visible;
   transition: linear 0.3s;
@@ -1496,3 +1521,59 @@ nav ul li a */
 /* modal img */
 
 /* /global__div */
+
+/* footer */
+.section_footer {
+  background-color: #000000;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer_menu,.footer_a {
+  margin: 15px;
+}
+
+.names_footers {
+  margin-bottom: 20px;
+  width: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.text_footer {
+  display: flex;
+  width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 20px;
+  color: #dddddd;
+}
+
+hr {
+  background: #ffffff;
+}
+a{
+  text-decoration: none;
+}
+.footer_bottom_text {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 36px;
+  color: #ffffff;
+}
