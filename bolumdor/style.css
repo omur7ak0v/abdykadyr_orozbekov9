@@ -1,0 +1,300 @@
+/* block_title_ao */
+.block_title_ao {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  background: white;
+  border-bottom: 1px solid #2461ff;
+}
+
+.block_title_ao_cont {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ao_navigator {
+  display: flex;
+  width: 100%;
+  height: 49px;
+  text-align: left;
+  align-items: center;
+}
+
+.ao_navigator a {
+  display: flex;
+  width: auto;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-right: 5px;
+}
+
+.ao_main {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ao_main_name {
+  display: flex;
+  width: 50%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.5px;
+  flex-direction: column;
+
+  color: #000000;
+}
+
+.ao_main_name span {
+  display: flex;
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #0e1422;
+}
+
+.ao_main_img {
+  display: flex;
+  width: 40%;
+
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ao_main_img img {
+  width: 100%;
+  height: 250px;
+}
+/* /block_title_ao */
+
+/* bolumdor_ao */
+
+
+.bolumdor_ao {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.b_card {
+  display: flex;
+  width: 100%;
+  max-width: 900px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px 4px rgb(36 97 255 / 25%);
+  padding: 20px 40px;
+  margin: 10px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 4px rgb(36 97 255 / 25%);
+  border-radius: 21px;
+  transition: linear 0.3s;
+  padding: 32px;
+}
+
+.b_card_img {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.b__img {
+  display: flex;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.b__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.b_card_inf {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.b_card_name {
+  display: flex;
+  width: 100%;
+  border-bottom: 2px solid #2461ff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding: 0px 0;
+  margin-bottom: 14px;
+}
+
+.b_card_text {
+  display: flex;
+  width: 100%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #000000;
+}
+
+/* /bolumdor_ao */
+
+/* mugalim_card */
+
+.mugalim {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.mugalim_cont {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.mugalim_header {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.mugalim_title {
+  display: flex;
+  width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  color: #0e1422;
+}
+
+.mugalim_subtitle {
+  display: flex;
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #0e1422;
+}
+
+.mugalim_cards {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mugalim_card {
+  display: flex;
+  width: 298px;
+  height: 248px;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 21px;
+  transition: linear 0.3s;
+  padding: 10px;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.mugalim_card:hover{
+  box-shadow: 0px 0px 20px 4px rgb(36 97 255 / 45%);
+  transition: linear 0.3s;
+}
+
+.mugalim_img {
+  display: flex;
+  width: 141.54px;
+  height: 96.32px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.mugalim_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.mugalim_name {
+  display: flex;
+  width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #0e1422;
+}
+
+.mugalim_status {
+  display: flex;
+  width: 100%;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+
+  color: #2461ff;
+}
+
+/* /mugalim_card */
